@@ -21,6 +21,5 @@ RUN apt-get -qq update && apt-get -qqy install influxdb grafana
 ADD execution_script.sh .
 ENTRYPOINT ["/bin/sh", "execution_script.sh"]
 
-EXPOSE 8083 8086 3000
 
 
