@@ -1,8 +1,6 @@
 FROM ubuntu:14.04.4
 
-MAINTAINER Spark Media India (mb-blr@cisco.com)
-
-WORKDIR /opt
+MAINTAINER Spark Media India (rharnoor@cisco.com)
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-get -qq update && apt-get -qqy install curl
