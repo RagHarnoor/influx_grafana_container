@@ -8,5 +8,6 @@ influx and grafana are by default mapped to port 8086 and 3000 respectively from
 ```
 GRAFANA_PORT=10000 INFLUX_PORT=2000 ./run_influx_grafana.sh
 ```
+After reaching the login page, use the default credentials for grafana - admin/admin, to reach the default dashboard
 
 
