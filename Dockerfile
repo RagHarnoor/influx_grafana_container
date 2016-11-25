@@ -1,6 +1,6 @@
 FROM ubuntu:14.04.4
 
-MAINTAINER Spark Media India (rharnoor@cisco.com)
+MAINTAINER Spark Media India (group.shramego@cisco.com)
 
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 RUN apt-get -qq update && apt-get -qqy install curl apt-transport-https wget adduser libfontconfig
