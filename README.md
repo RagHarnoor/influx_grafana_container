@@ -17,7 +17,7 @@ GRAFANA_PORT=10000 INFLUX_PORT=2000 ./run_influx_grafana.sh
 ```
 
 # graphana ui
-- navigate to https://container_ip:graphana_port/. example: https://127.0.0.1:3000.
+- navigate to http://container_ip:graphana_port/. example: http://127.0.0.1:3000.
 - login using uname: admin, pwd:admin
 
 
