@@ -1,13 +1,22 @@
 # influx_grafana
+a container that runs an influxdb and graphana instance
 
-This repository installs an ubuntu docker container with influxdb and grafana. 
-To begin with the installation, use the script run_influx_grafana.sh
+# build
+./build.sh
 
-influx and grafana are by default mapped to port 8086 and 3000 respectively from your host into the container. to map it to a different port set the environment variable GRAFANA_PORT or INFLUX_PORT before launching graflux like so:
+# run
+```
+./run_influx_grafana.sh
+```
+
+influxdb and grafana by default listen on port 8086 and 3000 respectively. to use different ports use the variables GRAFANA_PORT and INFLUX_PORT before like so:
 
 ```
 GRAFANA_PORT=10000 INFLUX_PORT=2000 ./run_influx_grafana.sh
 ```
-After reaching the login page, use the default credentials for grafana - admin/admin, to reach the default dashboard
+
+# graphana ui
+navigate to https://container_ip:graphana_port/
+login using uname: admin, pwd:admin
 
 
