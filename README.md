@@ -1,5 +1,5 @@
 # influx_grafana
-a container that runs an influxdb and graphana instance
+a container that runs an influxdb and grafana instance
 
 # build
 ```
@@ -16,8 +16,7 @@ influxdb and grafana by default listen on port 8086 and 3000 respectively. to us
 GRAFANA_PORT=10000 INFLUX_PORT=2000 ./run_influx_grafana.sh
 ```
 
-# graphana ui
-- navigate to http://container_ip:graphana_port/. example: http://127.0.0.1:3000.
+# grafana ui
+- navigate to http://container_ip:grafana_port/. example: http://127.0.0.1:3000.
 - login using uname: admin, pwd:admin
-
 
