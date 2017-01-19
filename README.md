@@ -1,6 +1,10 @@
 # influx_grafana
 a container that runs an influxdb and grafana instance
 
+# prerequisites
+- docker (https://www.docker.com/)
+- bash
+
 # build
 ```
 ./build.sh
